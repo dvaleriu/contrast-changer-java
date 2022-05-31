@@ -22,7 +22,7 @@ public class Main {
 		System.out.println("Enter the destination: \n");
 		String forTheDestination = scn.next();
 			*/	
-		//String pathToImage = "C:\\Users\\bidil\\OneDrive\\Desktop\\car_test_java.bmp";
+		//String pathToImage = "C:\\Users\\Val\\OneDrive\\Desktop\\car_test_java.bmp";
 		
 		long startTime = System.currentTimeMillis();
 		//ContrastChanger cc = new ContrastChanger(scaleFactor, offSet, forTheImage, forTheDestination);
@@ -31,7 +31,7 @@ public class Main {
 		
 		long stopTime = System.currentTimeMillis();
 		
-		// Compute the total time of the execution
+		
 		cc.setTotalTimeOfExecution(stopTime - startTime);
 		scn.close();
 		
